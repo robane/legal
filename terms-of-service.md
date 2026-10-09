@@ -6,7 +6,7 @@ permalink: /terms-of-service/
 # Terms of Service
 
 **Effective date:** 7 September 2026
-**Last updated:** 7 September 2026
+**Last updated:** 9 October 2026
 
 These Terms of Service ("Terms") govern your use of the mobile games
 published by **robane** ("we", "us", "our"): **Word Popping!**, **Pic Sort**,
@@ -19,7 +19,7 @@ using a Game, you agree to these Terms.
 
 ## 1. Eligibility
 
-You must be at least 13 years old to use the Games. If you are between 13
+You must be at least 16 years old to use the Games. If you are between 16
 and the age of majority in your country, you confirm that a parent or legal
 guardian has reviewed and agreed to these Terms on your behalf.
 

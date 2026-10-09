@@ -22,16 +22,18 @@ the operating system version, and the level you were playing. See the
 
 **Is my progress backed up?**
 It depends on the game. Word Popping! and Cube Out 3D save your progress on
-your device and back it up automatically, so deleting and reinstalling on the
-**same device** restores your levels and coins; it does **not** transfer to a
-different device, because there is no account to sign in to. Pic Sort keeps
-your progress on your device only.
+your device and back it up automatically. On iPhone, deleting and
+reinstalling Word Popping! on the **same device** restores your levels and
+coins. On Android, Cube Out 3D gets your progress back after a reinstall only
+if Android's own backup restores the game's data. There is no account to sign
+in to, so progress does not move between devices through an account. Pic Sort
+keeps your progress on your device only.
 
 **Why am I seeing ads?**
 Our games are free to download and ad-supported. Whether the ads are
 personalized is up to you: on iPhone the system asks at first launch whether
-the game may track you, and in Europe and the UK every game also shows an
-advertising consent dialog. Decline either and you still see ads, just
+the game may track you, and when a game finds that you are in Europe or the
+UK it also shows an advertising consent dialog. Decline either and you still see ads, just
 contextual ones. You can change your mind at any time in the game's
 **Settings → Privacy**.
 

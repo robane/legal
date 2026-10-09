@@ -6,7 +6,7 @@ permalink: /privacy-policy/
 # Privacy Policy
 
 **Effective date:** 7 September 2026
-**Last updated:** 7 September 2026
+**Last updated:** 9 October 2026
 
 This Privacy Policy explains how **robane** ("we", "us", "our") processes
 personal data in connection with the mobile games we publish ("the Games",
@@ -39,12 +39,14 @@ Protection Regulation (Regulation (EU) 2016/679, "GDPR"). You can reach us at
   Firebase, so we can see where a game breaks, where it is too hard, and
   which features are used.
 - The Games show **ads**. On iOS the system asks at first launch whether the
-  Game may track you. In the **EEA and the UK** every Game shows a consent
-  dialog for advertising. If you decline, or never answer, ads are
-  **contextual** — not based on a profile of you. You can change your answer
-  at any time in the Game under **Settings → Privacy**.
+  Game may track you. If you appear to be in the **EEA or the UK**, the Game
+  shows a consent dialog for advertising (section 7). If you decline, or never
+  answer, ads are **contextual** — not based on a profile of you. You can
+  change your answer at any time in the Game under **Settings → Privacy**.
 - Where a Game offers **in-app purchases**, the store (Apple or Google)
   processes the payment; we never see your payment details.
+- Data the Games send travels **encrypted**
+  ([section 21](#21-how-we-protect-your-data)).
 
 ---
 
@@ -53,18 +55,22 @@ Protection Regulation (Regulation (EU) 2016/679, "GDPR"). You can reach us at
 - **Player id** — in Games that back up progress: a random identifier
   created by Firebase Authentication ("anonymous sign-in") the first time you
   open the Game. It is not connected to an Apple ID, a Google account, an
-  email address, or any account. On iOS it is kept in the device keychain and
-  on Android in the app's protected storage backed up by the system, which is
-  what lets your progress backup be found again after a reinstall.
-- **App and device identifiers** — on iOS the vendor identifier (IDFV); on
-  every platform the Firebase app instance id where the Game uses Firebase.
+  email address, or any account. On iOS it is kept in the device keychain,
+  which lets your progress backup be found again after a reinstall. On Android
+  it is kept in the app's private storage; it survives a reinstall only if
+  Android's own backup restores the app's data, which also restores your
+  progress on the device.
+- **App and device identifiers** — on iOS the vendor identifier (IDFV); where
+  the Game uses Firebase, the Firebase app instance id, the Firebase
+  installation id and the Crashlytics installation id.
 - **Advertising identifier** — the IDFA on iOS, available to us and our
   advertising partners **only if you allow tracking** (section 6); the Google
   advertising id on Android, available unless you delete or reset it in your
   device's ad settings.
 - **IP address** — seen by every service the Game contacts. It is used to
-  route traffic, to derive coarse (city-level) location for ad delivery, and
-  to determine whether EU/UK rules apply to you.
+  route traffic, to derive coarse (city-level) location for ad delivery, and,
+  by our consent and advertising partners, to determine whether EU/UK rules
+  apply to you.
 
 ## 3. Data stored on your device
 
@@ -72,17 +78,30 @@ Protection Regulation (Regulation (EU) 2016/679, "GDPR"). You can reach us at
   have seen
 - Your settings
 - Your advertising consent choices, in the standard IAB TCF format
+- In Cube Out 3D, a log of your level attempts (date and time, level, result,
+  time taken, each tap and drag, boosters used, device model). We use such
+  logs to test difficulty on our own devices; on yours the log stays on the
+  device, and the Game never sends it to us or anyone else.
 
-Deleting the Game removes this data from your device. The player id (section
-2) and the backup described next are the exceptions, in the Games that have
-them.
+Deleting the Game removes this data from your device. The exceptions, in the
+Games that have them, are the backup described next and, on iOS, the player
+id (section 2), which stays in the device keychain. On Android, if your
+device's own backup is turned on, Android may keep a copy of the Game's data
+in your Google account and restore it when you reinstall.
 
 ## 4. Your progress backup
 
 In Games that back up progress, your progress is copied to **Google Cloud
 Firestore**, a database we operate, under a record named after your player
-id. The record contains your level, coin balance, boosters, and a timestamp.
-It contains no other information about you.
+id. The record is a copy of the game progress and settings stored on your
+device (section 3). Depending on the Game, it includes your level, coin
+balance and boosters; your sound, music, vibration and language settings;
+which tutorials you have seen; how long, on how many days and in how many
+sessions you have played, and the day you last played; the counters and times
+that pace how often ads and rating requests appear; and flags for one-time
+events already recorded — plus the save-format version, the app version and
+a timestamp. It contains nothing that identifies you directly, such as a name
+or an email address.
 
 The backup is hosted in the **European Union** (Google's `europe-central2`
 region, Warsaw) and is read back only when the Game finds no local progress —
@@ -100,8 +119,8 @@ player id, the app version, your device model and operating system version,
 your language, a country derived from your IP address, and, where it applies,
 the ad campaign that led to your install (section 8). Cube Out 3D also
 records a coarse description of your device's capabilities (memory, processor
-cores, graphics chip) once per install, so that we can choose the right frame
-rate for phones like yours.
+cores, graphics chip) each time the Game starts, so that we can choose the
+right frame rate for phones like yours.
 
 Crash reports contain the technical state of the Game when it stopped
 working: stack traces, device model, operating system version, and the
@@ -134,16 +153,19 @@ Tracking**.
 
 On Android there is no equivalent system prompt. Your Google advertising id
 is available to our advertising partners unless you delete or reset it in
-**Android Settings → Google → Ads**; in the EEA and the UK the consent dialog
-in section 7 governs whether ads may be personalized.
+**Android Settings → Google → Ads**; where the Game shows you the consent
+dialog in section 7, your answer there governs whether ads may be
+personalized.
 
 To deliver ads, cap how often you see the same ad, prevent fraud, and measure
 that an ad was shown, our advertising partners may process your IP address
 (and coarse, city-level location derived from it), device information (model,
 operating system version, language, app version), the app or vendor
-identifier, the advertising identifier where available, ad interaction
-events (impressions, clicks, video completions), and technical diagnostics
-related to ad delivery.
+identifier, the advertising identifier where available, identifiers the
+partners assign to your device or installation themselves, ad interaction
+events (impressions, clicks, video completions), information about any
+in-app purchases made in the Game, and technical diagnostics related to ad
+delivery, including crash reports.
 
 Unity's practices are described in the
 [Unity Player and App User Privacy Policy](https://unity.com/legal/game-player-and-app-user-privacy-policy);
@@ -151,9 +173,14 @@ Google's at <https://policies.google.com/privacy>.
 
 ## 7. Consent in the EEA and the UK
 
-If you are in the European Economic Area or the United Kingdom, the Game
-shows you a **consent dialog** at first launch, provided by Google's User
-Messaging Platform. Your choices are recorded on your device as an IAB TCF
+If you appear to be in the European Economic Area or the United Kingdom, the
+Game shows you a **consent dialog** at first launch, provided by Google's
+User Messaging Platform, which uses your IP address to decide whether the
+dialog is required where you are. Word Popping! and Cube Out 3D first check
+your device's region — Word Popping! from your iPhone's region setting, Cube
+Out 3D from your mobile network, then your SIM card, then your device's
+region setting — and ask the User Messaging Platform only when that region is
+in the EEA or the UK. Your choices are recorded on your device as an IAB TCF
 consent string, which our advertising partners read before serving any ad.
 In Games that do not serve ads through Google, the User Messaging Platform is
 used for this consent record only.
@@ -230,14 +257,11 @@ that ads can be personalized. Some US state privacy laws, including
 California's, treat that kind of sharing as a "sale" or "sharing" of personal
 information.
 
-To opt out, either:
-
-- turn tracking off for the Game in **iOS Settings → Privacy & Security →
-  Tracking**, or delete your advertising id in **Android Settings → Google →
-  Ads** — this removes the advertising identifier and stops personalized
-  advertising; or
-- email us at **robane.games@gmail.com** and we will record your opt-out and
-  pass it to our advertising partners.
+To opt out, turn tracking off for the Game in **iOS Settings → Privacy &
+Security → Tracking**, or delete your advertising id in **Android Settings →
+Google → Ads**. This removes the advertising identifier, so it can no longer
+be used to personalize your ads. If you have questions about this, email us at
+**robane.games@gmail.com**.
 
 We do not knowingly sell or share the personal information of anyone under 16.
 
@@ -246,10 +270,13 @@ We do not knowingly sell or share the personal information of anyone under 16.
 - **Your progress backup** — kept while you play (each session overwrites it)
   and until you ask us to delete it.
 - **Analytics events** — kept for a limited period under Google Analytics'
-  retention settings and then deleted automatically. Aggregated statistics
-  that no longer identify a device may be kept longer.
-- **Crash reports** — kept for the limited period applied by Firebase
-  Crashlytics.
+  retention settings and then deleted automatically. Copies exported to our
+  analysis database (section 5) are kept until we delete them; we delete a
+  player's copies when asked (section 15). Aggregated statistics that no
+  longer identify a device may be kept longer.
+- **Crash reports** — kept by Firebase Crashlytics for 90 days, then deleted.
+- **Player id** — kept by Firebase Authentication until we delete it, which we
+  do when asked (section 15).
 - **Data held by our advertising partners** — kept according to their own
   retention schedules, described in their privacy notices.
 
@@ -293,7 +320,7 @@ required by GDPR Articles 45-46.
 
 ## 17. Children
 
-The Games are not directed at children under 13, and we do not knowingly
+The Games are not directed at children under 16, and we do not knowingly
 collect personal data from children. If you believe a child has used a Game
 and you would like the associated data removed, contact us and we will delete
 it.
@@ -323,3 +350,25 @@ Email: <robane.games@gmail.com>
 | Tracking permission | Apple App Tracking Transparency (section 6) | Apple App Tracking Transparency (section 6) | Not applicable on Android; the Google advertising id (section 6) |
 | Install attribution | Apple SKAdNetwork and Apple Ads attribution (section 8) | Not used | Aggregated store and partner reporting where measured (section 8) |
 | Remote configuration | Firebase Remote Config (section 10) | Not used | Firebase Remote Config (section 10) |
+
+## 21. How we protect your data
+
+- **Encryption in transit.** Everything the Games send over the network — to
+  Firebase, to the app stores, and to our consent and advertising partners —
+  travels over encrypted connections (HTTPS/TLS).
+- **Encryption at rest.** In Games that use them, your progress backup (Cloud
+  Firestore), your player id (Firebase Authentication), crash reports
+  (Firebase Crashlytics) and our analysis database (Google BigQuery) are
+  stored by Google, which encrypts that data at rest by default.
+- **Access.** Only our own accounts can open our Firebase and Google Cloud
+  projects and our advertising dashboards. The database rules let each Game
+  installation read and change only the progress backup that belongs to its
+  own player id.
+- **Minimal data.** The Games never ask for your name or email address, and
+  you never create an account. We keep data for the periods in section 14.
+- **Incidents.** If a personal-data breach occurred, we would notify the
+  Polish data protection authority (UODO) without undue delay and, where
+  feasible, within 72 hours, unless the breach is unlikely to put anyone at
+  risk, as GDPR Article 33 requires. If it were likely to put you at high
+  risk, we would tell you, as Article 34 requires; because we hold no contact
+  details for players, we would do this in the Games or on this page.
