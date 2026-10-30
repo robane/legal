@@ -6,7 +6,7 @@ permalink: /privacy-policy/
 # Privacy Policy
 
 **Effective date:** 7 September 2026
-**Last updated:** 9 October 2026
+**Last updated:** 30 October 2026
 
 This Privacy Policy explains how **robane** ("we", "us", "our") processes
 personal data in connection with the mobile games we publish ("the Games",
@@ -120,7 +120,9 @@ your language, a country derived from your IP address, and, where it applies,
 the ad campaign that led to your install (section 8). Cube Out 3D also
 records a coarse description of your device's capabilities (memory, processor
 cores, graphics chip) each time the Game starts, so that we can choose the
-right frame rate for phones like yours.
+right frame rate for phones like yours. If you allow notifications, Cube Out
+3D schedules its reminders on your device itself; we record only whether you
+allowed them and when you open one.
 
 Crash reports contain the technical state of the Game when it stopped
 working: stack traces, device model, operating system version, and the
@@ -177,9 +179,9 @@ If you appear to be in the European Economic Area or the United Kingdom, the
 Game shows you a **consent dialog** at first launch, provided by Google's
 User Messaging Platform, which uses your IP address to decide whether the
 dialog is required where you are. Word Popping! and Cube Out 3D first check
-your device's region — Word Popping! from your iPhone's region setting, Cube
-Out 3D from your mobile network, then your SIM card, then your device's
-region setting — and ask the User Messaging Platform only when that region is
+your device's region — on iPhone from your iPhone's region setting; Cube Out
+3D on Android from your mobile network, then your SIM card, then your
+device's region setting — and ask the User Messaging Platform only when that region is
 in the EEA or the UK. Your choices are recorded on your device as an IAB TCF
 consent string, which our advertising partners read before serving any ad.
 In Games that do not serve ads through Google, the User Messaging Platform is
@@ -341,14 +343,14 @@ Email: <robane.games@gmail.com>
 
 | | Word Popping! | Pic Sort | Cube Out 3D |
 |---|---|---|---|
-| Platform | iPhone (App Store) | iPhone (App Store) | Android (Google Play) |
-| In-app purchases | Yes — coin packs via Apple (section 9) | Yes — via Apple (section 9) | None at this time |
+| Platform | iPhone (App Store) | iPhone (App Store) | iPhone (App Store) and Android (Google Play) |
+| In-app purchases | Yes — coin packs via Apple (section 9) | Yes — via Apple (section 9) | Yes — coin packs via Apple and Google Play (section 9) |
 | Player id and progress backup | Yes — anonymous Firebase id, backup in the EU (sections 2, 4) | No — progress stays on the device only | Yes — anonymous Firebase id, backup in the EU (sections 2, 4) |
 | Analytics and crash reports | Firebase Analytics and Crashlytics (section 5) | None of ours; Apple's opt-in diagnostics only (section 11) | Firebase Analytics and Crashlytics, plus the device-capability record (section 5) |
 | Advertising partner | Unity LevelPlay — ironSource Ads and Unity Ads (section 6) | Google AdMob (section 6) | Unity LevelPlay — ironSource Ads and Unity Ads (section 6) |
 | Consent dialog (EEA/UK) | Google User Messaging Platform (section 7) | Google User Messaging Platform (section 7) | Google User Messaging Platform, for the consent record only — no Google ads (section 7) |
-| Tracking permission | Apple App Tracking Transparency (section 6) | Apple App Tracking Transparency (section 6) | Not applicable on Android; the Google advertising id (section 6) |
-| Install attribution | Apple SKAdNetwork and Apple Ads attribution (section 8) | Not used | Aggregated store and partner reporting where measured (section 8) |
+| Tracking permission | Apple App Tracking Transparency (section 6) | Apple App Tracking Transparency (section 6) | iPhone: Apple App Tracking Transparency; Android: the Google advertising id (section 6) |
+| Install attribution | Apple SKAdNetwork and Apple Ads attribution (section 8) | Not used | iPhone: Apple SKAdNetwork and Apple Ads attribution; Android: aggregated store and partner reporting where measured (section 8) |
 | Remote configuration | Firebase Remote Config (section 10) | Not used | Firebase Remote Config (section 10) |
 
 ## 21. How we protect your data

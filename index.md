@@ -5,7 +5,8 @@ game we publish:
 
 - **Word Popping!** — a word-association puzzle for iPhone (App Store)
 - **Pic Sort** — a picture-sorting puzzle for iPhone (App Store)
-- **Cube Out 3D** — a 3D cube-shooting puzzle for Android (Google Play)
+- **Cube Out 3D** — a 3D cube-shooting puzzle for iPhone (App Store) and
+  Android (Google Play)
 
 ## Support
 
@@ -23,8 +24,8 @@ the operating system version, and the level you were playing. See the
 **Is my progress backed up?**
 It depends on the game. Word Popping! and Cube Out 3D save your progress on
 your device and back it up automatically. On iPhone, deleting and
-reinstalling Word Popping! on the **same device** restores your levels and
-coins. On Android, Cube Out 3D gets your progress back after a reinstall only
+reinstalling Word Popping! or Cube Out 3D on the **same device** restores
+your levels and coins. On Android, Cube Out 3D gets your progress back after a reinstall only
 if Android's own backup restores the game's data. There is no account to sign
 in to, so progress does not move between devices through an account. Pic Sort
 keeps your progress on your device only.
@@ -38,10 +39,11 @@ contextual ones. You can change your mind at any time in the game's
 **Settings → Privacy**.
 
 **Can I buy anything?**
-Where a game offers purchases (Word Popping! and Pic Sort sell optional coin
-packs through the App Store), the store processes the payment and handles
-refunds — for Apple at <https://reportaproblem.apple.com>. Cube Out 3D has no
-purchases at this time.
+Where a game offers purchases (Word Popping!, Pic Sort and Cube Out 3D sell
+optional coin packs through the App Store, and Cube Out 3D also through
+Google Play), the store processes the payment and handles refunds — for
+Apple at <https://reportaproblem.apple.com>, for Google Play through Google
+Play's refund process.
 
 ## Legal
 

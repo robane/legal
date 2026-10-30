@@ -18,6 +18,13 @@ days.
 - **What you expected and what you saw** — a screenshot or a short screen
   recording helps more than anything else
 
+## Reporting an ad
+
+If you see an ad in one of our games that is offensive, misleading or
+inappropriate, email the address above with a screenshot of the ad, the
+game's name and roughly when you saw it. We report it to our advertising
+partner so it can be blocked.
+
 ## Purchases and refunds
 
 Purchases are sold and processed by the store, not by us. For Apple App Store
