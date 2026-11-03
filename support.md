@@ -11,7 +11,7 @@ days.
 
 ## What to include
 
-- **Which game** — Word Popping!, Pic Sort, or Cube Out 3D
+- **Which game** — Word Popping!, Pic Sort, Cube Out 3D, or Tap Blocks!
 - **Your phone** — model and operating system version (for example
   "iPhone 13, iOS 18" or "Nokia 3.1 Plus, Android 10")
 - **Where it happened** — the level number and what you were doing

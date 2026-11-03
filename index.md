@@ -7,6 +7,7 @@ game we publish:
 - **Pic Sort** — a picture-sorting puzzle for iPhone (App Store)
 - **Cube Out 3D** — a 3D cube-shooting puzzle for iPhone (App Store) and
   Android (Google Play)
+- **Tap Blocks!** — a color block puzzle for Android (Google Play)
 
 ## Support
 
@@ -22,10 +23,10 @@ the operating system version, and the level you were playing. See the
 ### Common questions
 
 **Is my progress backed up?**
-It depends on the game. Word Popping! and Cube Out 3D save your progress on
-your device and back it up automatically. On iPhone, deleting and
+It depends on the game. Word Popping!, Cube Out 3D and Tap Blocks! save your
+progress on your device and back it up automatically. On iPhone, deleting and
 reinstalling Word Popping! or Cube Out 3D on the **same device** restores
-your levels and coins. On Android, Cube Out 3D gets your progress back after a reinstall only
+your levels and coins. On Android, Cube Out 3D and Tap Blocks! get your progress back after a reinstall only
 if Android's own backup restores the game's data. There is no account to sign
 in to, so progress does not move between devices through an account. Pic Sort
 keeps your progress on your device only.
