@@ -95,7 +95,8 @@ Game.
 
 The Games use third-party services, including the Apple App Store and Google
 Play (distribution and payments), Unity LevelPlay / ironSource Ads / Unity
-Ads and Google AdMob (advertising, as named per game in the Privacy Policy),
+Ads, Google AdMob, Meta Audience Network, Mintegral and InMobi (advertising,
+as named per game in the Privacy Policy),
 and Google Firebase (progress backup, analytics, crash reporting, remote
 configuration, in the Games that use it). Your use of these services is also
 subject to their own terms and policies.

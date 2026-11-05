@@ -6,7 +6,7 @@ permalink: /privacy-policy/
 # Privacy Policy
 
 **Effective date:** 7 September 2026
-**Last updated:** 3 November 2026
+**Last updated:** 5 November 2026
 
 This Privacy Policy explains how **robane** ("we", "us", "our") processes
 personal data in connection with the mobile games we publish ("the Games",
@@ -156,8 +156,9 @@ are used, and measure whether our advertising pays for itself.
 Ads in the Games are delivered by advertising partners named per game in
 section 20: **Unity LevelPlay** (the ironSource mediation platform, operated
 by Unity Technologies), serving ads from the ironSource Ads and Unity Ads
-networks and, in the Games that use it, Google AdMob bidding inside
-LevelPlay; or **Google AdMob** directly.
+networks and, in the Games that use them, Google AdMob, **Meta Audience
+Network**, **Mintegral** and **InMobi** bidding inside LevelPlay; or **Google
+AdMob** directly.
 
 On iOS, at first launch, the system shows you Apple's **App Tracking
 Transparency** prompt:
@@ -180,7 +181,8 @@ personalized.
 To deliver ads, cap how often you see the same ad, prevent fraud, and measure
 that an ad was shown, our advertising partners may process your IP address
 (and coarse, city-level location derived from it), device information (model,
-operating system version, language, app version), the app or vendor
+operating system version, language, app version, network type, mobile
+carrier), the app or vendor
 identifier, the advertising identifier where available, identifiers the
 partners assign to your device or installation themselves, ad interaction
 events (impressions, clicks, video completions), information about any
@@ -189,7 +191,10 @@ delivery, including crash reports.
 
 Unity's practices are described in the
 [Unity Player and App User Privacy Policy](https://unity.com/legal/game-player-and-app-user-privacy-policy);
-Google's at <https://policies.google.com/privacy>.
+Google's at <https://policies.google.com/privacy>; Meta's at
+<https://www.facebook.com/privacy/policy/>; Mintegral's at
+<https://www.mintegral.com/en/privacy/>; InMobi's at
+<https://advertising.inmobi.com/privacy-policy>.
 
 ## 7. Consent in the EEA and the UK
 
@@ -201,7 +206,9 @@ first check your device's region — on iPhone from your iPhone's region
 setting; on Android from your mobile network, then your SIM card, then your
 device's region setting — and ask the User Messaging Platform only when that region is
 in the EEA or the UK. Your choices are recorded on your device as an IAB TCF
-consent string, which our advertising partners read before serving any ad.
+consent string, together with Google's additional-consent record for partners
+outside that framework, such as Meta. The mediation platform and our
+advertising partners use these records when serving ads.
 In Games that do not serve ads through Google, the User Messaging Platform is
 used for this consent record only.
 
@@ -332,7 +339,8 @@ Progress backups and our analysis database are hosted in the European Union.
 Firebase Analytics and Crashlytics are operated by Google and may process
 data on servers outside the EEA, including in the United States. Our
 advertising partners (Unity Technologies, including its ironSource platform,
-and Google) and the store operators (Apple, Google) operate globally.
+Google and, in the Games that use them, Meta, Mintegral and InMobi) and the
+store operators (Apple, Google) operate globally.
 
 Where personal data is transferred outside the EEA, these transfers rely on
 the EU-US Data Privacy Framework and/or Standard Contractual Clauses, as
@@ -365,7 +373,7 @@ Email: <robane.games@gmail.com>
 | In-app purchases | Yes — coin packs via Apple (section 9) | Yes — via Apple (section 9) | Yes — coin packs via Apple and Google Play (section 9) | No |
 | Player id and progress backup | Yes — anonymous Firebase id, backup in the EU (sections 2, 4) | No — progress stays on the device only | Yes — anonymous Firebase id, backup in the EU (sections 2, 4) | Yes — anonymous Firebase id, backup in the EU, with the play journal (sections 2, 4) |
 | Analytics and crash reports | Firebase Analytics and Crashlytics (section 5) | None of ours; Apple's opt-in diagnostics only (section 11) | Firebase Analytics and Crashlytics, plus the device-capability record (section 5) | Firebase Analytics and Crashlytics (section 5) |
-| Advertising partner | Unity LevelPlay — ironSource Ads and Unity Ads (section 6) | Google AdMob (section 6) | Unity LevelPlay — ironSource Ads and Unity Ads, plus Google AdMob bidding on Android (section 6) | Unity LevelPlay — ironSource Ads, Unity Ads and Google AdMob bidding (section 6) |
+| Advertising partner | Unity LevelPlay — ironSource Ads and Unity Ads (section 6) | Google AdMob (section 6) | Unity LevelPlay — ironSource Ads and Unity Ads, plus Google AdMob, Meta Audience Network, Mintegral and InMobi bidding on Android (section 6) | Unity LevelPlay — ironSource Ads, Unity Ads and Google AdMob bidding; Meta Audience Network, Mintegral and InMobi bidding once enabled in the Game (section 6) |
 | Consent dialog (EEA/UK) | Google User Messaging Platform (section 7) | Google User Messaging Platform (section 7) | Google User Messaging Platform (section 7) | Google User Messaging Platform (section 7) |
 | Tracking permission | Apple App Tracking Transparency (section 6) | Apple App Tracking Transparency (section 6) | iPhone: Apple App Tracking Transparency; Android: the Google advertising id (section 6) | Android: the Google advertising id (section 6) |
 | Install attribution | Apple SKAdNetwork and Apple Ads attribution (section 8) | Not used | iPhone: Apple SKAdNetwork and Apple Ads attribution; Android: aggregated store and partner reporting where measured (section 8) | Android: aggregated store and partner reporting where measured (section 8) |
