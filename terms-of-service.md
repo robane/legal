@@ -6,11 +6,11 @@ permalink: /terms-of-service/
 # Terms of Service
 
 **Effective date:** 7 September 2026
-**Last updated:** 3 November 2026
+**Last updated:** 19 November 2026
 
 These Terms of Service ("Terms") govern your use of the mobile games
 published by **robane** ("we", "us", "our"): **Word Popping!**, **Pic Sort**,
-**Cube Out 3D** and **Tap Blocks!** (together "the Games", each one "the Game"). robane is the
+**Cube Out 3D**, **Tap Blocks!** and **Color Mahjong** (together "the Games", each one "the Game"). robane is the
 games brand of Robert Aneszko, a sole trader based in Poland; contact details
 are in the [Privacy Policy](../privacy-policy/#who-we-are). By installing or
 using a Game, you agree to these Terms.

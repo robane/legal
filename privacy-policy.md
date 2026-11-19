@@ -6,12 +6,12 @@ permalink: /privacy-policy/
 # Privacy Policy
 
 **Effective date:** 7 September 2026
-**Last updated:** 5 November 2026
+**Last updated:** 19 November 2026
 
 This Privacy Policy explains how **robane** ("we", "us", "our") processes
 personal data in connection with the mobile games we publish ("the Games",
-and each one "the Game"): **Word Popping!**, **Pic Sort**, **Cube Out 3D**, and
-**Tap Blocks!**.
+and each one "the Game"): **Word Popping!**, **Pic Sort**, **Cube Out 3D**,
+**Tap Blocks!** and **Color Mahjong**.
 The policy has a common part that applies to every Game and a
 [per-game section](#20-per-game-specifics) that says which parts apply to
 which Game.
@@ -104,7 +104,7 @@ events already recorded — plus the save-format version, the app version and
 a timestamp. It contains nothing that identifies you directly, such as a name
 or an email address.
 
-In Cube Out 3D and Tap Blocks! the record also keeps a short **play journal**:
+In Cube Out 3D, Tap Blocks! and Color Mahjong the record also keeps a short **play journal**:
 the days you played; for each level, how many attempts you made, how the
 first one ended, how long they took, the boosters used, and in Tap Blocks!
 the lives lost and continues taken; your last sessions (the day, the level
@@ -134,11 +134,11 @@ started or completed, a booster used, an ad shown (including what it earned),
 a purchase started or granted, a settings change. Each event carries your
 player id, the app version, your device model and operating system version,
 your language, a country derived from your IP address, and, where it applies,
-the ad campaign that led to your install (section 8). Cube Out 3D also
-records a coarse description of your device's capabilities (memory, processor
+the ad campaign that led to your install (section 8). Cube Out 3D and Color
+Mahjong also record a coarse description of your device's capabilities (memory, processor
 cores, graphics chip) each time the Game starts, so that we can choose the
 right frame rate for phones like yours. If you allow notifications, Cube Out
-3D and Tap Blocks! schedule their reminders on your device itself; we record
+3D, Tap Blocks! and Color Mahjong schedule their reminders on your device itself; we record
 only whether you allowed them and when you open one.
 
 Crash reports contain the technical state of the Game when it stopped
@@ -201,8 +201,8 @@ Google's at <https://policies.google.com/privacy>; Meta's at
 If you appear to be in the European Economic Area or the United Kingdom, the
 Game shows you a **consent dialog** at first launch, provided by Google's
 User Messaging Platform, which uses your IP address to decide whether the
-dialog is required where you are. Word Popping!, Cube Out 3D and Tap Blocks!
-first check your device's region — on iPhone from your iPhone's region
+dialog is required where you are. Word Popping!, Cube Out 3D, Tap Blocks! and
+Color Mahjong first check your device's region — on iPhone from your iPhone's region
 setting; on Android from your mobile network, then your SIM card, then your
 device's region setting — and ask the User Messaging Platform only when that region is
 in the EEA or the UK. Your choices are recorded on your device as an IAB TCF
@@ -367,17 +367,17 @@ Email: <robane.games@gmail.com>
 
 ## 20. Per-game specifics
 
-| | Word Popping! | Pic Sort | Cube Out 3D | Tap Blocks! |
-|---|---|---|---|---|
-| Platform | iPhone (App Store) | iPhone (App Store) | iPhone (App Store) and Android (Google Play) | Android (Google Play) |
-| In-app purchases | Yes — coin packs via Apple (section 9) | Yes — via Apple (section 9) | Yes — coin packs via Apple and Google Play (section 9) | No |
-| Player id and progress backup | Yes — anonymous Firebase id, backup in the EU (sections 2, 4) | No — progress stays on the device only | Yes — anonymous Firebase id, backup in the EU (sections 2, 4) | Yes — anonymous Firebase id, backup in the EU, with the play journal (sections 2, 4) |
-| Analytics and crash reports | Firebase Analytics and Crashlytics (section 5) | None of ours; Apple's opt-in diagnostics only (section 11) | Firebase Analytics and Crashlytics, plus the device-capability record (section 5) | Firebase Analytics and Crashlytics (section 5) |
-| Advertising partner | Unity LevelPlay — ironSource Ads and Unity Ads (section 6) | Google AdMob (section 6) | Unity LevelPlay — ironSource Ads and Unity Ads, plus Google AdMob, Meta Audience Network, Mintegral and InMobi bidding on Android (section 6) | Unity LevelPlay — ironSource Ads, Unity Ads and Google AdMob bidding; Meta Audience Network, Mintegral and InMobi bidding once enabled in the Game (section 6) |
-| Consent dialog (EEA/UK) | Google User Messaging Platform (section 7) | Google User Messaging Platform (section 7) | Google User Messaging Platform (section 7) | Google User Messaging Platform (section 7) |
-| Tracking permission | Apple App Tracking Transparency (section 6) | Apple App Tracking Transparency (section 6) | iPhone: Apple App Tracking Transparency; Android: the Google advertising id (section 6) | Android: the Google advertising id (section 6) |
-| Install attribution | Apple SKAdNetwork and Apple Ads attribution (section 8) | Not used | iPhone: Apple SKAdNetwork and Apple Ads attribution; Android: aggregated store and partner reporting where measured (section 8) | Android: aggregated store and partner reporting where measured (section 8) |
-| Remote configuration | Firebase Remote Config (section 10) | Not used | Firebase Remote Config (section 10) | Firebase Remote Config (section 10) |
+| | Word Popping! | Pic Sort | Cube Out 3D | Tap Blocks! | Color Mahjong |
+|---|---|---|---|---|---|
+| Platform | iPhone (App Store) | iPhone (App Store) | iPhone (App Store) and Android (Google Play) | Android (Google Play) | Android (Google Play) |
+| In-app purchases | Yes — coin packs via Apple (section 9) | Yes — via Apple (section 9) | Yes — coin packs via Apple and Google Play (section 9) | No | Yes — coin packs via Google Play (section 9) |
+| Player id and progress backup | Yes — anonymous Firebase id, backup in the EU (sections 2, 4) | No — progress stays on the device only | Yes — anonymous Firebase id, backup in the EU (sections 2, 4) | Yes — anonymous Firebase id, backup in the EU, with the play journal (sections 2, 4) | Yes — anonymous Firebase id, backup in the EU, with the play journal (sections 2, 4) |
+| Analytics and crash reports | Firebase Analytics and Crashlytics (section 5) | None of ours; Apple's opt-in diagnostics only (section 11) | Firebase Analytics and Crashlytics, plus the device-capability record (section 5) | Firebase Analytics and Crashlytics (section 5) | Firebase Analytics and Crashlytics, plus the device-capability record (section 5) |
+| Advertising partner | Unity LevelPlay — ironSource Ads and Unity Ads (section 6) | Google AdMob (section 6) | Unity LevelPlay — ironSource Ads and Unity Ads, plus Google AdMob, Meta Audience Network, Mintegral and InMobi bidding on Android (section 6) | Unity LevelPlay — ironSource Ads, Unity Ads and Google AdMob bidding; Meta Audience Network, Mintegral and InMobi bidding once enabled in the Game (section 6) | Unity LevelPlay — ironSource Ads, Unity Ads and Google AdMob bidding; Meta Audience Network, Mintegral and InMobi bidding once enabled in the Game (section 6) |
+| Consent dialog (EEA/UK) | Google User Messaging Platform (section 7) | Google User Messaging Platform (section 7) | Google User Messaging Platform (section 7) | Google User Messaging Platform (section 7) | Google User Messaging Platform (section 7) |
+| Tracking permission | Apple App Tracking Transparency (section 6) | Apple App Tracking Transparency (section 6) | iPhone: Apple App Tracking Transparency; Android: the Google advertising id (section 6) | Android: the Google advertising id (section 6) | Android: the Google advertising id (section 6) |
+| Install attribution | Apple SKAdNetwork and Apple Ads attribution (section 8) | Not used | iPhone: Apple SKAdNetwork and Apple Ads attribution; Android: aggregated store and partner reporting where measured (section 8) | Android: aggregated store and partner reporting where measured (section 8) | Android: aggregated store and partner reporting where measured (section 8) |
+| Remote configuration | Firebase Remote Config (section 10) | Not used | Firebase Remote Config (section 10) | Firebase Remote Config (section 10) | Firebase Remote Config (section 10) |
 
 ## 21. How we protect your data
 
