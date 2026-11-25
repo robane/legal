@@ -11,8 +11,8 @@ days.
 
 ## What to include
 
-- **Which game** — Word Popping!, Pic Sort, Cube Out 3D, Tap Blocks!, or Color
-  Mahjong
+- **Which game** — Word Popping!, Pic Sort, Cube Out 3D, Tap Blocks!, Color
+  Mahjong, or Sort Room!
 - **Your phone** — model and operating system version (for example
   "iPhone 13, iOS 18" or "Nokia 3.1 Plus, Android 10")
 - **Where it happened** — the level number and what you were doing
